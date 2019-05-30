@@ -82,7 +82,7 @@
   onMount(async () => {
     const res = await fetch("https://api.kanye.rest");
     const response = await res.json();
-    console.log(response.quote);
+    newTodo = response.quote;
   });
 
   $: todosRemaining = todos.filter(todo => !todo.completed).length;
