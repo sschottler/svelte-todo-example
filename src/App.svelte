@@ -181,7 +181,7 @@
 </style>
 
 <div class="container">
-  <img src={'/img/svelte-logo-horizontal.svg'} alt="svelte logo" class="logo" />
+  <img src={'img/svelte-logo-horizontal.svg'} alt="svelte logo" class="logo" />
 
   <input
     type="text"

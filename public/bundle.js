@@ -639,7 +639,7 @@ var app = (function () {
 				attr(input, "type", "text");
 				input.className = "todo-item-edit svelte-1x9yfxh";
 				input.autofocus = true;
-				add_location(input, file, 194, 10, 3966);
+				add_location(input, file, 194, 10, 3965);
 
 				dispose = [
 					listen(input, "input", input_input_handler),
@@ -685,7 +685,7 @@ var app = (function () {
 				t = text(t_value);
 				div.className = "todo-item-label svelte-1x9yfxh";
 				toggle_class(div, "completed", ctx.todo.completed);
-				add_location(div, file, 187, 10, 3763);
+				add_location(div, file, 187, 10, 3762);
 				dispose = listen(div, "dblclick", dblclick_handler);
 			},
 
@@ -746,13 +746,13 @@ var app = (function () {
 				div1 = element("div");
 				div1.textContent = "×";
 				attr(input, "type", "checkbox");
-				add_location(input, file, 185, 8, 3669);
+				add_location(input, file, 185, 8, 3668);
 				div0.className = "todo-item-left svelte-1x9yfxh";
-				add_location(div0, file, 184, 6, 3590);
+				add_location(div0, file, 184, 6, 3589);
 				div1.className = "remove-item svelte-1x9yfxh";
-				add_location(div1, file, 203, 6, 4229);
+				add_location(div1, file, 203, 6, 4228);
 				div2.className = "todo-item svelte-1x9yfxh";
-				add_location(div2, file, 183, 4, 3560);
+				add_location(div2, file, 183, 4, 3559);
 
 				dispose = [
 					listen(input, "change", input_change_handler),
@@ -884,37 +884,37 @@ var app = (function () {
 				div4 = element("div");
 				button3 = element("button");
 				button3.textContent = "Clear Completed";
-				img.src = '/img/svelte-logo-horizontal.svg';
+				img.src = 'img/svelte-logo-horizontal.svg';
 				img.alt = "svelte logo";
 				img.className = "logo svelte-1x9yfxh";
 				add_location(img, file, 173, 2, 3302);
 				attr(input0, "type", "text");
 				input0.className = "todo-input svelte-1x9yfxh";
 				input0.placeholder = "What needs to be done";
-				add_location(input0, file, 175, 2, 3384);
+				add_location(input0, file, 175, 2, 3383);
 				attr(input1, "type", "checkbox");
 				input1.className = "svelte-1x9yfxh";
-				add_location(input1, file, 210, 8, 4385);
-				add_location(label, file, 209, 6, 4369);
-				add_location(div0, file, 208, 4, 4357);
-				add_location(div1, file, 214, 4, 4485);
+				add_location(input1, file, 210, 8, 4384);
+				add_location(label, file, 209, 6, 4368);
+				add_location(div0, file, 208, 4, 4356);
+				add_location(div1, file, 214, 4, 4484);
 				div2.className = "extra-container svelte-1x9yfxh";
-				add_location(div2, file, 207, 2, 4323);
+				add_location(div2, file, 207, 2, 4322);
 				button0.className = "svelte-1x9yfxh";
 				toggle_class(button0, "active", ctx.currentFilter === 'all');
-				add_location(button0, file, 219, 6, 4582);
+				add_location(button0, file, 219, 6, 4581);
 				button1.className = "svelte-1x9yfxh";
 				toggle_class(button1, "active", ctx.currentFilter === 'active');
-				add_location(button1, file, 224, 6, 4717);
+				add_location(button1, file, 224, 6, 4716);
 				button2.className = "svelte-1x9yfxh";
 				toggle_class(button2, "active", ctx.currentFilter === 'completed');
-				add_location(button2, file, 229, 6, 4861);
-				add_location(div3, file, 218, 4, 4570);
+				add_location(button2, file, 229, 6, 4860);
+				add_location(div3, file, 218, 4, 4569);
 				button3.className = "svelte-1x9yfxh";
-				add_location(button3, file, 237, 6, 5036);
-				add_location(div4, file, 236, 4, 5024);
+				add_location(button3, file, 237, 6, 5035);
+				add_location(div4, file, 236, 4, 5023);
 				div5.className = "extra-container svelte-1x9yfxh";
-				add_location(div5, file, 217, 2, 4536);
+				add_location(div5, file, 217, 2, 4535);
 				div6.className = "container svelte-1x9yfxh";
 				add_location(div6, file, 172, 0, 3276);
 
